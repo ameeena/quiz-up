@@ -10,7 +10,7 @@ const TestDetailsSchema = new Schema({
     domain: String,
     description: String,
     questions: [{
-        questionName: String,
+        value: String,
         options: [String],
         correctOptionIndex: Number
     }]
