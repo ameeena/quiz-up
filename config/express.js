@@ -80,6 +80,7 @@ module.exports = function() {
     require('../routes/readingMaterialLinks.server.routes.js')(app);
     require('../routes/teams.server.routes')(app);
     require('../routes/domains.server.routes')(app);
+    require('../routes/admin.server.routes')(app);
     require('../routes/index.js')(app);
     return app;
 };
