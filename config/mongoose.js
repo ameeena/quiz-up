@@ -19,6 +19,7 @@ module.exports = function() {
     require('../models/readingMaterialLinks.server.model');
     require('../models/teams.server.model');
     require('../models/domains.server.model');
+    require('../models/admins.server.model');
     return db;
 
 }
